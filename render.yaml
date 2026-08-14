@@ -1,0 +1,17 @@
+services:
+  - type: worker
+    name: pdf-ocr-bot
+    env: python
+    plan: free
+    buildCommand: |
+      apt-get update && apt-get install -y tesseract-ocr tesseract-ocr-ara tesseract-ocr-fra poppler-utils || true
+      pip install -r requirements.txt
+    startCommand: python bot.py
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: ADMIN_ID
+        sync: false
+      - key: OCR_LANGS
+        value: ara+eng+fra
+        
