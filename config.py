@@ -2,8 +2,8 @@
 import os
 
 # ====== املأ هذين الحقلين بنفسك ======
-BOT_TOKEN = os.getenv("BOT_TOKEN", "")        # ضع توكن البوت هنا
-ADMIN_ID = int(os.getenv("ADMIN_ID", "0"))    # ضع أيدي الأدمن هنا (رقم)
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8682545541:AAGgQN4TWqUpjO9pDJEFqcq98Y-rbKBUQgs")        # ضع توكن البوت هنا
+ADMIN_ID = int(os.getenv("ADMIN_ID", "8877567829"))    # ضع أيدي الأدمن هنا (رقم)
 # =====================================
 
 # مجلد البيانات (على Render استعمل قرصاً دائماً إن أردت الحفظ)
