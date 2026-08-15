@@ -2,7 +2,7 @@
 import os
 
 # ====== املأ هذين الحقلين بنفسك ======
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8682545541:AAGgQN4TWqUpjO9pDJEFqcq98Y-rbKBUQgs")        # ضع توكن البوت هنا
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8893399262:AAE7_7dHce4j4_Zp710opf0-qLjTIN0CDuc")        # ضع توكن البوت هنا
 ADMIN_ID = int(os.getenv("ADMIN_ID", "8877567829"))    # ضع أيدي الأدمن هنا (رقم)
 # =====================================
 
